@@ -16,9 +16,9 @@
 
   <!-- Profile Metrics & Status Pills -->
   <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=vuongngan-se&label=PROFILE+VIEWS&color=7952eb&style=flat-square" alt="Profile Views" />
+    <img src="https://img.shields.io/badge/ROLE-SOFTWARE%20ENGINEERING%20%F0%9F%92%BB-7952eb?style=flat-square" alt="Role" />
     <img src="https://img.shields.io/badge/STATUS-FOCUSING%20%F0%9F%8E%AF-00B4D8?style=flat-square" alt="Status" />
-    <img src="https://img.shields.io/badge/DEGREE-SE%20%40%20VKU%20%F0%9F%8E%93-8A2BE2?style=flat-square" alt="VKU SE" />
+    <img src="https://img.shields.io/badge/UNIVERSITY-VKU%20%F0%9F%8E%93-8A2BE2?style=flat-square" alt="VKU" />
     <img src="https://img.shields.io/badge/LOCATION-DA%20NANG%2C%20VN%20%F0%9F%87%BB%F0%9F%87%B3-FF0055?style=flat-square" alt="Location" />
   </p>
 
@@ -40,11 +40,6 @@
       <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
     </a>
   </p>
-
-  <!-- GitHub Dynamic Trophies -->
-  <a href="https://github.com/vuongngan-se">
-    <img src="https://github-profile-trophy.vercel.app/?username=vuongngan-se&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=7" alt="GitHub Trophies" />
-  </a>
 
 </div>
 
