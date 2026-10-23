@@ -48,7 +48,7 @@
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=1,2,9,20&height=2" width="100%" alt="Divider" />
 
 ### 👨‍💻 About Me
 
@@ -82,7 +82,7 @@ philosophy:
   </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=1,2,9,20&height=2" width="100%" alt="Divider" />
 
 ### 🛠️ Tech Stack & Toolbox
 
@@ -109,7 +109,7 @@ philosophy:
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=1,2,9,20&height=2" width="100%" alt="Divider" />
 
 ### 🚀 Featured Repositories
 
@@ -125,7 +125,7 @@ philosophy:
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=1,2,9,20&height=2" width="100%" alt="Divider" />
 
 ### 📊 GitHub Activity & Analytics
 
@@ -133,7 +133,7 @@ philosophy:
 
   <!-- Overview Stats & Streak Cards in Tokyonight Theme -->
   <a href="https://github.com/vuongngan-se">
-    <img src="https://github-readme-stats.vercel.app/api?username=vuongngan-se&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=7EE787&text_color=C9D1D9" height="165" alt="Vuong Ngan GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=vuongngan-se&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=7EE787&text_color=C9D1D9&include_all_commits=true" height="165" alt="Vuong Ngan GitHub Stats" />
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=vuongngan-se&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=7EE787&fire=FF7B72&currStreakLabel=7EE787" height="165" alt="Vuong Ngan GitHub Streak" />
   </a>
 
@@ -144,24 +144,21 @@ philosophy:
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vuongngan-se&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" height="165" alt="Vuong Ngan Top Languages" />
   </a>
 
-  <br/><br/>
-
-  <!-- Neon Activity Commit Graph -->
-  <a href="https://github.com/vuongngan-se">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=vuongngan-se&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Commit Activity Graph" />
-  </a>
-
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=1,2,9,20&height=2" width="100%" alt="Divider" />
 
 ### 🐍 Contribution Activity (Snake Animation)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/vuongngan-se/vuongngan-se/output/github-contribution-grid-snake.svg" alt="Snake animation" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vuongngan-se/vuongngan-se/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vuongngan-se/vuongngan-se/output/github-contribution-grid-snake.svg" />
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/vuongngan-se/vuongngan-se/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Divider" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=1,2,9,20&height=2" width="100%" alt="Divider" />
 
 <!-- Footer Quote & Wave Banner -->
 <div align="center">
