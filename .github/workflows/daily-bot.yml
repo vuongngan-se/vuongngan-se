@@ -1,0 +1,54 @@
+name: Daily Auto Commit & PR Bot
+
+on:
+  schedule:
+    # Tự động chạy 2 lần mỗi ngày (08:00 sáng và 20:00 tối giờ Việt Nam GMT+7)
+    - cron: "0 1,13 * * *"
+  workflow_dispatch: # Cho phép bấm "Run workflow" thủ công bất cứ lúc nào
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  auto-pr-and-commit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Git User Info
+        run: |
+          git config --global user.name "vuongngan-se"
+          git config --global user.email "nganvuonglebao@gmail.com"
+
+      - name: Create branch, commit and open Pull Request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH_NAME="bot/activity-sync-$(date +'%Y%m%d-%H%M%S')"
+          git checkout -b "$BRANCH_NAME"
+
+          mkdir -p logs
+          echo "[$(date -u +'%Y-%m-%dT%H:%M:%SZ')] Automated activity log by @vuongngan-se" >> logs/daily-activity.log
+
+          git add logs/daily-activity.log
+          git commit -m "chore(activity): automated daily progress sync $(date +'%Y-%m-%d')"
+          git push origin "$BRANCH_NAME"
+
+          # Tạo Pull Request qua GitHub CLI
+          PR_URL=$(gh pr create \
+            --title "🚀 Chore: Daily Activity Sync $(date +'%Y-%m-%d')" \
+            --body "Automated daily maintenance and contribution sync by GitHub Action Bot." \
+            --base main \
+            --head "$BRANCH_NAME")
+
+          echo "Created PR: $PR_URL"
+
+          # Tự động Merge Pull Request và xóa nhánh phụ
+          gh pr merge "$PR_URL" --merge --delete-branch
+          echo "Successfully merged PR and deleted branch $BRANCH_NAME"
